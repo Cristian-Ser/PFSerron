@@ -564,7 +564,7 @@ hr {
     justify-content: center;
     height: 100%;
     text-align: center;
-    padding: 50px 25% 50px;
+    padding: 50px 25% 10px;
 }
 
 .galeria-coment p {
@@ -967,7 +967,7 @@ hr {
     /* GALERIA.HTML PAGE */
 
     .galeria-coment {
-        padding: 30px 25%;
+        padding: 30px 25% 10px;
     }
 
     .galeria {
@@ -1503,7 +1503,7 @@ hr {
     /* GALERIA.HTML PAGE */
 
     .galeria-coment {
-        padding: 30px 20% 30px;
+        padding: 25px 20% 10px;
     }
 
     .galeria-coment p {
@@ -1522,7 +1522,7 @@ hr {
 
 
     /* ARTISTA.HTML PAGE  */
-    
+
     /*DESCRIPCION */
     .artista-description {
         padding: 20px 30px;
@@ -1584,6 +1584,10 @@ hr {
 @media screen and (max-width: 480px) {
 
     /* ESTILOS GENERALES */
+    body {
+        padding-top: 7vh;
+    }
+
     p {
         font-size: 16px;
         line-height: 20px;
