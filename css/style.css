@@ -12,7 +12,6 @@
 /* ESTILOS GENERALES */
 
 /* BODY */
-
 body {
     background-color: #080319;
     padding-top: 10vh;
@@ -95,7 +94,6 @@ hr {
     color: #ffffff;
     font-family: 'Lobster';
     font-size: 20px;
-    /* transition: 0.3s; */
 }
 
 .nav-link:hover {
@@ -120,7 +118,6 @@ hr {
 }
 
 /* PAGES MAIN */
-
 
 /* INDEX.HTML PAGE */
 
@@ -886,8 +883,7 @@ hr {
     margin: 0;
 }
 
-/* FIN DEL LOGO */
-
+/* SOCIAL */
 .social {
     display: flex;
     justify-content: center;
@@ -1679,6 +1675,7 @@ hr {
 
 
     /* GALERIA.HTML PAGE */
+
     .galeria-coment {
         padding: 15px 20%;
     }
@@ -1800,7 +1797,6 @@ hr {
     }
 
     /* LOGO */
-
     .footer__logo__img {
         width: 30px;
         height: 30px;
@@ -1811,8 +1807,6 @@ hr {
         font-size: 25px;
         height: 100%;
     }
-
-    /* FIN DEL LOGO */
 
     .social__icons {
         width: 30px;
