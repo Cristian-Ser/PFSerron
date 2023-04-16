@@ -1,0 +1,46 @@
+/* FOOTER */
+
+.footer {
+    padding-bottom: 50px;
+
+    &__division {
+        padding: 50px 20%;
+
+        hr {
+            border: solid 3px #ffffff;
+            border-radius: 3px;
+        }
+    }
+
+    /* LOGO */
+    &__logo {
+        display: flex;
+        justify-content: center;
+
+        &__img {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+        }
+
+        &__name {
+            height: 50px;
+            font-size: 40px;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin: 0;
+        }
+    }
+
+    /* SOCIAL */
+    &__social {
+        display: flex;
+        justify-content: center;
+
+        &__icons {
+            width: 60px;
+            height: 60px;
+            margin: 20px;
+        }
+    }
+}

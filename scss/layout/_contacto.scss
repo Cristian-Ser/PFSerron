@@ -1,0 +1,200 @@
+/* CONTACTO.HTML PAGE */
+
+.grid__ct-page {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'areact1'
+        'areact2';
+
+    .areact1 {
+        grid-area: areact1;
+    }
+
+    .areact2 {
+        grid-area: areact2;
+    }
+
+    /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+    .banner-pages {
+        background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+        width: 90vw;
+        margin: 25px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+
+        h1 {
+            width: 100%;
+            height: 18vw;
+            @include flex(row, center, center);
+            text-shadow: 3px 3px 5px $mainColor;
+        }
+    }
+
+    /* FORMULARIO */
+    .ct-form {
+        @include flex(column, center, center);
+        padding: 50px;
+        gap: 20px;
+
+        h3 {
+            padding-bottom: 50px;
+        }
+
+        /* NOMBRE */
+        &__nm {
+            width: 50%;
+            height: 40px;
+            border-bottom: 2px solid #ffffff;
+
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                background: linear-gradient(to top, $sndColor, $mainColor);
+                color: #ffffff;
+                padding: 0 10px;
+
+                &::placeholder {
+                    font-weight: 700;
+                    color: #ffffff;
+                }
+
+                &:focus {
+                    color: #ffffff;
+                    outline: none;
+                }
+            }
+        }
+
+        /* APELLIDO */
+        &__ltnm {
+            width: 50%;
+            height: 40px;
+            border-bottom: 2px solid #ffffff;
+
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                background: linear-gradient(to top, $sndColor, $mainColor);
+                color: #ffffff;
+                padding: 0 10px;
+
+                &::placeholder {
+                    font-weight: 700;
+                    color: #ffffff;
+                }
+
+                &:focus {
+                    color: #ffffff;
+                    outline: none;
+                }
+            }
+        }
+
+        /* UBICACIÓN */
+        &__ub {
+            width: 50%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+
+            label {
+                padding-right: 10px;
+                color: #ffffff;
+                font-weight: 700;
+            }
+
+            select {
+                height: 90%;
+                color: $sndColor;
+                font-weight: 700;
+                border-radius: 10px;
+            }
+        }
+
+        /* RECIBIR NOVEDADES */
+        &__checkbox {
+            width: 50%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+
+            label {
+                padding-right: 15px;
+                color: #ffffff;
+                font-weight: 700;
+            }
+        }
+
+        /* MENSAJE */
+        &__msg {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 2px solid #ffffff;
+
+            label {
+                font-weight: 700;
+                text-align: center;
+                padding-bottom: 15px;
+            }
+
+            textarea {
+                height: 300px;
+                border: none;
+                background: linear-gradient(to top, $sndColor, $mainColor);
+                resize: none;
+                color: #ffffff;
+                padding: 10px;
+
+                &::placeholder {
+                    font-weight: 700;
+                    color: #ffffff;
+                }
+
+                &:focus {
+                    color: #ffffff;
+                    outline: none;
+                }
+            }
+        }
+
+        /* BOTONES */
+        &__btns {
+            width: 50%;
+            height: 40px;
+            @include flex(row, center, center);
+
+            div {
+                width: 30%;
+                height: 100%;
+                text-align: center;
+                margin: 0 10px;
+
+                input {
+                    width: 100%;
+                    height: 100%;
+                    font-family: $fontL;
+                    font-size: 25px;
+                    color: $sndColor;
+                    background-color: #ffffff;
+                    border-radius: 10px;
+                    transition: 0.2s;
+                    border: 0;
+
+                    &:active {
+                        color: #ffffff;
+                        background-color: $trdColor;
+                        border: 0;
+                        transition: 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}

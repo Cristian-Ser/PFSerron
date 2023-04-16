@@ -1,0 +1,67 @@
+//reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
+/* BODY */
+body {
+    background-color: $mainColor;
+    padding-top: 10vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 7vw;
+    font-family: $fontL;
+    margin: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 6.2vw;
+    font-family: $fontL;
+    margin: 0;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 5.6vw;
+    font-family: $fontL;
+    margin: 0;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+label {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+span {
+    font-weight: 800;
+}
+
+hr {
+    opacity: 100%;
+}

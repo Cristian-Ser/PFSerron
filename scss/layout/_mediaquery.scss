@@ -1,0 +1,948 @@
+/* MEDIAQUERY */
+
+@media screen and (max-width: 1200px) {
+
+    /* INDEX.HTML PAGE */
+    .grid__index-page {
+
+        /* TIPOS_DE_MANDALA */
+        .section-tdm__container__demonstration {
+            box-shadow: 0px 0px 20px 5px $fthColor;
+
+            &:hover {
+                box-shadow: 0px 0px 35px 15px $trdColor;
+            }
+        }
+
+        /* TESTIMONIOS */
+        .section-t__all {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+
+            .section-t__all__container {
+                width: 95%;
+                padding: 10px;
+
+                &:hover {
+                    width: 95%;
+                }
+            }
+        }
+    }
+
+
+    /* TIPOS_DE_MANDALA.HTML PAGE */
+    .grid__tdm-page {
+
+        .article-tdm__description {
+            flex-direction: column-reverse;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            img {
+                width: 600px;
+                box-shadow: 0px 0px 60px 0px $trdColor;
+            }
+
+            .article-tdm__description__text {
+                width: 80vw;
+                padding-top: 30px;
+
+                h2 {
+                    padding-bottom: 30px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
+
+    /* GALERIA.HTML PAGE */
+
+    .grid__gl-page {
+
+        .galeria-coment {
+            padding: 30px 25% 10px;
+        }
+
+        .galeria {
+            padding: 30px 25px;
+        }
+    }
+
+
+
+    /* ARTISTA.HTML PAGE  */
+
+    .grid__ar-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'areaar1 areaar1'
+            'areaar2 areaar2'
+            'areaar3 areaar3';
+
+        .areaar1 {
+            grid-area: areaar1;
+        }
+
+        .areaar2 {
+            grid-area: areaar2;
+        }
+
+        .areaar3 {
+            grid-area: areaar3;
+        }
+
+        /* IMAGEN Y DESCRIPCION */
+        .artista-img {
+            padding: 30px 0;
+            height: 100%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        .artista-description h2 {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+
+    /* ESTILOS GENERALES */
+    p {
+        font-size: 19px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+
+
+    /* PAGES */
+
+    /* INDEX.HTML PAGE */
+    .grid__index-page {
+        grid-template-areas:
+            'area1 area1'
+            'area2 area2'
+            'area3 area3'
+            'area4 area4'
+            'area5 area5';
+
+        /* BANNER */
+        .banner-index__content {
+            .banner-index__content__inputs {
+                padding: 15px;
+
+                .banner-index__content__inputs__button {
+                    border: solid 3px #ffffff;
+                }
+            }
+        }
+
+        /* TIPOS DE MANDALA */
+        .section-tdm {
+            width: 95vw;
+            margin: auto;
+            padding: 50px 0;
+
+            .section-tdm__title {
+                padding-bottom: 50px;
+            }
+
+            .section-tdm__container__demonstration {
+                width: 40%;
+                margin: 50px 25px;
+                box-shadow: 0px 0px 25px 8px $fthColor;
+
+                &:hover {
+                    width: 42%;
+                }
+
+                &__name {
+                    font-size: 4vw;
+                }
+            }
+        }
+
+        /* PARA QUIÉN ESTÁ DIRIGIDO */
+        .section-pqed__content h2 {
+            padding-bottom: 30px;
+        }
+
+        /* IMÁGEN DECORACIÓN */
+        .img-decoracion {
+            height: 100%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        /* TESTIMONIOS */
+        .section-t__all__container {
+            box-shadow: 0px 0px 20px 10px $trdColor;
+
+            &__nombre {
+                font-size: 26px;
+                padding-top: 20px;
+            }
+        }
+    }
+
+
+
+    /* TIPOS_DE_MANDALA.HTML PAGE */
+    .grid__tdm-page {
+
+        /* IMG Y DESCRIPCION */
+        .article-tdm__description img {
+            width: 60vw;
+            box-shadow: 0px 0px 60px 0px $trdColor;
+        }
+
+        /* ALGUNOS EJEMPLOS */
+        .article-tdm__examples__imgs img {
+            border: solid 4px $trdColor;
+        }
+
+        .articles-division {
+            padding: 30px 25%;
+        }
+    }
+
+
+    /* GALERIA.HTML PAGE */
+    .grid__gl-page {
+        .galeria-coment p {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .galeria__div {
+            width: 45%;
+            box-shadow: 0px 0px 15px 5px $trdColor;
+
+            &:hover {
+                width: 45%;
+                box-shadow: 0px 0px 15px 5px $trdColor;
+            }
+        }
+    }
+
+
+
+    /* CONTACTO.HTML PAGE */
+    .grid__ct-page {
+
+        /* SUBTÍTULO */
+        .ct-form h3 {
+            padding-bottom: 30px;
+        }
+
+        /* NOMBRE */
+        .ct-form__nm {
+            width: 60%;
+        }
+
+        /* APELLIDO */
+        .ct-form__ltnm {
+            width: 60%;
+        }
+
+        /* UBICACIÓN */
+        .ct-form__ub {
+            width: 60%;
+        }
+
+        /* RECIBIR NOVEDADES */
+        .ct-form__checkbox {
+            width: 60%;
+        }
+
+        /* MENSAJE */
+        .ct-form__msg {
+            width: 60%;
+        }
+
+        /* BOTONES */
+        .ct-form__btns {
+            width: 60%;
+        }
+
+        .ct-form__btns div input {
+            font-size: 20px;
+        }
+    }
+
+
+    /* FOOTER */
+    .footer__social__icons {
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* ESTILOS GENERALES */
+    body {
+        padding-top: 8vh;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+
+    /* HEADER(NAV) */
+    .navbar {
+        box-shadow: 0px 3px 18px 2px $sndColor;
+
+        .navbar-brand {
+            font-size: 25px;
+    
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    
+
+
+
+    /* PAGES */
+
+    /* INDEX.HTML PAGE */
+
+    .grid__index-page {
+
+        /* BANNER */
+        .banner-index__content {
+            .banner-index__content__inputs {
+                padding: 10px;
+
+                .banner-index__content__inputs__button:hover {
+                    box-shadow: 3px 3px 8px 1px $mainColor;
+                }
+            }
+        }
+
+        /* TIPOS DE MANDALA */
+        .section-tdm {
+            padding: 30px 0;
+
+            .section-tdm__title {
+                padding-bottom: 30px;
+            }
+        }
+
+        /* PARA QUIÉN ESTÁ DIRIGIDO */
+        .section-pqed__content {
+            padding: 30px;
+        }
+
+        /* TESTIMONIOS */
+        .section-t {
+            padding: 30px 0;
+
+            h2 {
+                padding: 25px 0 30px;
+            }
+        }
+    }
+
+
+
+    /* TIPOS_DE_MANDALA.HTML PAGE */
+    .grid__tdm-page {
+
+        /* ALGUNOS EJEMPLOS */
+        .article-tdm__examples h3 {
+            padding-bottom: 20px;
+        }
+
+        .article-tdm__examples__imgs {
+            flex-direction: column;
+            width: 95%;
+            align-items: center;
+            gap: 15px;
+
+            img {
+                border: solid 3px $trdColor;
+                border-radius: 15px;
+                width: 50vw;
+
+                &:hover {
+                    width: 50vw;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+
+
+    /* CONTACTO.HTML PAGE */
+    .grid__ct-page {
+
+        /* FORMULARIO */
+        .ct-form {
+            padding: 30px;
+            gap: 18px;
+
+            /* NOMBRE */
+            &__nm {
+                width: 70%;
+            }
+
+            /* APELLIDO */
+            &__ltnm {
+                width: 70%;
+            }
+
+            /* UBICACIÓN */
+            &__ub {
+                width: 70%;
+
+                label {
+                    font-weight: 700;
+                }
+
+                select {
+                    height: 90%;
+                }
+            }
+
+            /* RECIBIR NOVEDADES */
+            &__checkbox {
+                width: 70%;
+            }
+
+            /* MENSAJE */
+            &__msg {
+                width: 70%;
+            }
+
+            /* BOTONES */
+            &__btns {
+                width: 70%;
+
+                div {
+                    width: 45%;
+
+                    input {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding-bottom: 40px;
+
+        &__division {
+            padding: 30px 20%;
+        }
+
+        /* LOGO */
+        &__logo__img {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+        }
+
+        &__logo__name {
+            font-size: 35px;
+            height: 100%;
+        }
+
+        /* SOCIAL */
+        .footer__social__icons {
+            width: 50px;
+            height: 50px;
+            margin: 15px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* PAGES */
+
+    /* INDEX.HTML PAGE */
+    .grid__index-page {
+
+        /* BANNER */
+        .banner-index {
+            margin: 25px auto;
+        }
+
+        .banner-index__content {
+            .banner-index__content__inputs {
+                padding: 6px;
+
+                .banner-index__content__inputs__button {
+                    border: solid 2px #ffffff;
+                    border-radius: 50px;
+                    padding: 6px;
+                    margin: 5px;
+                }
+            }
+        }
+
+        /* TIPOS DE MANDALA */
+        .section-tdm {
+            padding: 20px 0;
+
+            .section-tdm__title {
+                padding-bottom: 20px;
+            }
+
+            .section-tdm__container {
+                &__demonstration {
+                    width: 80%;
+                    padding: 30px 0;
+                    margin: 40px 20px;
+
+                    &:hover {
+                        width: 80%;
+                        box-shadow: 0px 0px 25px 8px $fthColor;
+                        background-color: $sndColor;
+                        margin: 40px 20px;
+                    }
+
+                    &__name {
+                        font-size: 7vw;
+                        padding-top: 30px;
+                    }
+
+                    &:hover>.section-tdm__container__demonstration__name {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        /* PARA QUIÉN ESTÁ DIRIGIDO */
+        .section-pqed__content {
+            padding: 20px 30px;
+        }
+    }
+
+
+    /* TIPOS_DE_MANDALA.HTML PAGE */
+
+    .grid__tdm-page {
+
+        /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+        .banner-pages {
+            margin: 20px auto;
+
+            h1 {
+                text-shadow: 3px 3px 5px $mainColor;
+            }
+        }
+
+        /* ARTICULO */
+        /* IMG Y DESCRIPCION */
+        .article-tdm__description {
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            img {
+                box-shadow: 0px 0px 40px 0px $trdColor;
+            }
+
+            .article-tdm__description__text {
+                padding-top: 20px;
+
+                h2 {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+
+        /* ALGUNOS EJEMPLOS */
+        .articles-division {
+            padding: 20px 25%;
+
+            hr {
+                border: solid 2px #ffffff;
+            }
+        }
+    }
+
+
+
+    /* GALERIA.HTML PAGE */
+
+    .grid__gl-page {
+
+        .galeria-coment {
+            padding: 25px 20% 10px;
+
+            p {
+                line-height: 22px;
+                font-size: 22px;
+            }
+        }
+
+        .galeria__div {
+            width: 80%;
+
+            &:hover {
+                width: 80%;
+            }
+
+        }
+    }
+
+
+
+    /* ARTISTA.HTML PAGE  */
+    .grid__ar-page {
+
+        /*DESCRIPCION */
+        .artista-description {
+            padding: 20px 30px;
+        }
+    }
+
+
+    /* CONTACTO.HTML PAGE */
+
+    .grid__ct-page {
+
+        /* FORMULARIO */
+        .ct-form {
+            gap: 15px;
+
+            h3 {
+                padding-bottom: 15px;
+            }
+        }
+
+        /* NOMBRE */
+        .ct-form__nm input::placeholder {
+            font-size: 16px;
+        }
+
+        /* APELLIDO */
+        .ct-form__ltnm input::placeholder {
+            font-size: 16px;
+        }
+
+        /* UBICACIÓN */
+        .ct-form__ub label {
+            font-size: 16px;
+        }
+
+        .ct-form__ub select {
+            height: 70%;
+        }
+
+        /* RECIBIR NOVEDADES */
+        .ct-form__checkbox label {
+            font-size: 16px;
+        }
+
+        /* MENSAJE */
+        .ct-form__msg label {
+            font-size: 16px;
+        }
+
+        .ct-form__msg textarea {
+            height: 250px;
+
+            &::placeholder {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    /* ESTILOS GENERALES */
+    body {
+        padding-top: 7vh;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* HEADER(NAV) */
+    .navbar {
+        box-shadow: 0px 3px 15px 1px $sndColor;
+
+        .navbar-brand {
+            font-size: 18px;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+
+
+    /* PAGES */
+
+    /* INDEX.HTML PAGE */
+    .grid__index-page {
+
+        /* BANNER */
+        .banner-index {
+            margin: 15px auto;
+
+            .banner-index__content {
+                .banner-index__content__inputs {
+                    .banner-index__content__inputs__button {
+                        padding: 5px;
+                        margin: 2px;
+
+                        &:hover {
+                            box-shadow: 2px 2px 6px 1px $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* TIPOS DE MANDALA */
+        .section-tdm {
+            padding: 15px 0;
+
+            .section-tdm__title {
+                padding-bottom: 15px;
+            }
+
+            .section-tdm__container__demonstration {
+                box-shadow: 0px 0px 25px 5px $trdColor;
+                margin: 30px 15px;
+
+                &:hover {
+                    margin: 30px 15px;
+                }
+
+                .section-tdm__container__demonstration__img img {
+                    box-shadow: 0px 10px 20px 5px $mainColor;
+                }
+            }
+        }
+
+        /* PARA QUIÉN ESTÁ DIRIGIDO */
+        .section-pqed__content {
+            padding: 15px 25px;
+        }
+
+        /* TESTIMONIOS */
+        .section-t {
+            padding: 15px 0;
+
+            h2 {
+                padding: 10px 0 15px;
+            }
+        }
+
+        .section-t__all {
+            gap: 40px;
+
+            .section-t__all__container {
+                box-shadow: 0px 0px 20px 5px $trdColor;
+            }
+
+            .section-t__all__container__nombre {
+                font-size: 22px;
+                padding-top: 15px;
+            }
+        }
+    }
+
+
+
+    /* TIPOS_DE_MANDALA.HTML PAGE */
+    .grid__tdm-page {
+
+        .article-tdm__examples__imgs img {
+            border-radius: 8px;
+        }
+    }
+
+    /* GALERIA.HTML PAGE */
+
+    .grid__gl-page {
+        .galeria-coment {
+            padding: 15px 20%;
+
+            p {
+                line-height: 20px;
+                font-size: 18px;
+            }
+        }
+
+        .galeria {
+            padding: 15px 25px;
+
+            .galeria__div {
+                border: solid 3px $trdColor;
+                box-shadow: 0px 0px 15px 5px $trdColor;
+                margin: 18px 0;
+            }
+        }
+    }
+
+
+
+    /* CONTACTO.HTML PAGE */
+
+    .grid__ct-page {
+
+        /* SUBTÍTULO */
+        .ct-form h3 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* NOMBRE */
+        .ct-form__nm {
+            width: 80%;
+
+            input {
+                padding: 0 5px;
+
+                &::placeholder {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        /* APELLIDO */
+        .ct-form__ltnm {
+            width: 80%;
+
+            input {
+                padding: 0 5px;
+
+                &::placeholder {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        /* UBICACIÓN */
+        .ct-form__ub {
+            width: 80%;
+
+            label {
+                font-weight: 600;
+            }
+
+            select {
+                width: 100px;
+                font-weight: 600;
+            }
+        }
+
+        /* RECIBIR NOVEDADES */
+        .ct-form__checkbox {
+            width: 80%;
+
+            label {
+                padding-right: 10px;
+                font-weight: 600;
+            }
+        }
+
+        /* MENSAJE */
+        .ct-form__msg {
+            width: 80%;
+
+            label {
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+
+            textarea {
+                &::placeholder {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        /* BOTONES */
+        .ct-form__btns {
+            width: 80%;
+
+            div {
+                width: 45%;
+                height: 90%;
+                margin: 0 5px;
+
+                input {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+
+
+    /* FOOTER */
+
+    .footer {
+        padding-bottom: 35px;
+
+        .footer__division {
+            padding: 15px 20%;
+        }
+
+        /* LOGO */
+        .footer__logo__img {
+            width: 30px;
+            height: 30px;
+            margin-top: 5px;
+        }
+
+        .footer__logo__name {
+            font-size: 25px;
+            height: 100%;
+        }
+
+        .footer__social__icons {
+            width: 30px;
+            height: 30px;
+            margin: 8px;
+        }
+    }
+}

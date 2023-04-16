@@ -1,0 +1,69 @@
+/* ARTISTA.HTML PAGE  */
+
+.grid__ar-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'areaar1 areaar1'
+        'areaar2 areaar3';
+
+    .areaar1 {
+        grid-area: areaar1;
+    }
+
+    .areaar2 {
+        grid-area: areaar2;
+    }
+
+    .areaar3 {
+        grid-area: areaar3;
+    }
+
+    /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+    .banner-pages {
+        background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+        width: 90vw;
+        margin: 25px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+
+        h1 {
+            width: 100%;
+            height: 18vw;
+            @include flex(row, center, center);
+            text-shadow: 3px 3px 5px $mainColor;
+        }
+    }
+
+    /* IMAGEN Y DESCRIPCION */
+    .artista-img,
+    .artista-description {
+        padding: 50px 0;
+    }
+
+    .artista-img {
+        height: 100%;
+        overflow: hidden;
+        @include flex(row, center, center);
+    
+        img {
+            width: 90%;
+            border-radius: 25px;
+        }
+    }
+
+    .artista-description {
+        @include flex(column, center, center);
+        text-align: center;
+        padding: 50px;
+        height: 100%;
+    
+        h2 {
+            padding-bottom: 50px;
+        }
+    }
+
+}

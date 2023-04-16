@@ -1,0 +1,46 @@
+/* HEADER(NAV) */
+.navbar {
+    background-color: $mainColor;
+    box-shadow: 0px 5px 25px 2px $sndColor;
+
+    .navbar-brand {
+        color: #ffffff;
+        font-family: $fontL;
+        font-size: 32px;
+    
+        img {
+            width: 50px;
+        }
+        
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .offcanvas {
+        background-color: $sndColor;
+
+        .offcanvas-title {
+            color: #ffffff;
+            font-family: $fontL;
+            text-decoration: underline;
+            font-size: 25px;
+        }
+
+        .nav-link {
+            color: #ffffff;
+            font-family: $fontL;
+            font-size: 20px;
+        
+            &:hover {
+                background-color: #ffffff;
+                color: $trdColor;
+                transition: 0.3s;
+            }
+        }
+    }
+}
