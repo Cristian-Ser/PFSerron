@@ -1037,6 +1037,9 @@ hr {
   .grid__index-page .banner-index__content .banner-index__content__inputs {
     padding: 10px;
   }
+  .grid__index-page .banner-index__content .banner-index__content__inputs .banner-index__content__inputs__button {
+    font-size: 16px;
+  }
   .grid__index-page .banner-index__content .banner-index__content__inputs .banner-index__content__inputs__button:hover {
     box-shadow: 3px 3px 8px 1px #080319;
   }
@@ -1315,9 +1318,17 @@ hr {
   .grid__index-page .banner-index {
     margin: 15px auto;
   }
+  .grid__index-page .banner-index .banner-index__content .banner-index__content__inputs {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
   .grid__index-page .banner-index .banner-index__content .banner-index__content__inputs .banner-index__content__inputs__button {
-    padding: 5px;
+    width: 100%;
+    padding: 0px;
     margin: 2px;
+    font-weight: 100;
   }
   .grid__index-page .banner-index .banner-index__content .banner-index__content__inputs .banner-index__content__inputs__button:hover {
     box-shadow: 2px 2px 6px 1px #080319;

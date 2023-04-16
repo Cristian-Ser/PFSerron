@@ -319,14 +319,14 @@
 
         .navbar-brand {
             font-size: 25px;
-    
+
             img {
                 width: 40px;
             }
         }
     }
 
-    
+
 
 
 
@@ -341,8 +341,12 @@
             .banner-index__content__inputs {
                 padding: 10px;
 
-                .banner-index__content__inputs__button:hover {
-                    box-shadow: 3px 3px 8px 1px $mainColor;
+                .banner-index__content__inputs__button {
+                    font-size: 16px;
+
+                    &:hover {
+                        box-shadow: 3px 3px 8px 1px $mainColor;
+                    }
                 }
             }
         }
@@ -727,9 +731,15 @@
 
             .banner-index__content {
                 .banner-index__content__inputs {
+                    display: block;
+                    width: 90%;
+                    margin: 0 auto;
+                    padding: 0;
                     .banner-index__content__inputs__button {
-                        padding: 5px;
+                        width: 100%;
+                        padding: 0px;
                         margin: 2px;
+                        font-weight: 100;
 
                         &:hover {
                             box-shadow: 2px 2px 6px 1px $mainColor;
