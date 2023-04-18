@@ -214,7 +214,7 @@ hr {
   transition: 0.5s;
 }
 .grid__index-page .banner-index__content .banner-index__content__inputs__button:hover {
-  font-size: 2.2vw;
+  transform: scale(1.07);
   transition: 0.5s;
   box-shadow: 3px 3px 12px 1px #080319;
   background-color: #ffffff;
@@ -247,11 +247,10 @@ hr {
   color: #ffffff;
 }
 .grid__index-page .section-tdm__container__demonstration:hover {
-  width: 28%;
+  transform: scale(1.07);
   transition: 0.5s;
   box-shadow: 0px 0px 35px 15px #3610c1;
   background-color: #ffffff;
-  margin: 40px 25px;
 }
 .grid__index-page .section-tdm__container__demonstration__img {
   display: flex;
@@ -326,7 +325,7 @@ hr {
   transition: 0.5s;
 }
 .grid__index-page .section-t__all__container:hover {
-  width: 30%;
+  width: 32%;
   transition: 0.5s;
 }
 .grid__index-page .section-t__all__container__nombre {
@@ -468,10 +467,8 @@ hr {
   transition: 0.5s;
 }
 .grid__tdm-page .article-tdm__examples__imgs img:hover {
-  width: 27vw;
-  height: 100%;
-  margin: 10px;
-  transition: 0.5s;
+  transform: scale(1.05);
+  margin: 0 10px;
 }
 .grid__tdm-page .articles-division {
   padding: 50px 25%;
@@ -545,9 +542,8 @@ hr {
   transition: 0.5s;
 }
 .grid__gl-page .galeria__div:hover {
-  width: 32%;
-  box-shadow: 0px 0px 30px 5px #3610c1;
-  transition: 0.5s;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px 5px #3610c1;
 }
 .grid__gl-page .galeria__div img {
   width: 100%;

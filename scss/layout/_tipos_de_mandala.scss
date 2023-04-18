@@ -147,10 +147,8 @@
                 transition: 0.5s;
 
                 &:hover {
-                    width: 27vw;
-                    height: 100%;
-                    margin: 10px;
-                    transition: 0.5s;
+                    transform: scale(1.05);
+                    margin: 0 10px;
                 }
             }
         }
