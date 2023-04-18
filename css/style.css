@@ -906,11 +906,11 @@ hr {
   }
   .grid__index-page .section-tdm .section-tdm__container__demonstration {
     width: 40%;
-    margin: 50px 25px;
+    margin: 35px 25px;
     box-shadow: 0px 0px 25px 8px #340fb8;
   }
   .grid__index-page .section-tdm .section-tdm__container__demonstration:hover {
-    width: 42%;
+    transform: scale(1.05);
   }
   .grid__index-page .section-tdm .section-tdm__container__demonstration__name {
     font-size: 4vw;
@@ -956,7 +956,7 @@ hr {
     box-shadow: 0px 0px 15px 5px #3610c1;
   }
   .grid__gl-page .galeria__div:hover {
-    width: 45%;
+    transform: scale(1.03);
     box-shadow: 0px 0px 15px 5px #3610c1;
   }
   /* CONTACTO.HTML PAGE */
@@ -1073,8 +1073,7 @@ hr {
     width: 50vw;
   }
   .grid__tdm-page .article-tdm__examples__imgs img:hover {
-    width: 50vw;
-    margin: 0px;
+    transform: scale(1);
   }
   /* CONTACTO.HTML PAGE */
   .grid__ct-page {
@@ -1176,7 +1175,7 @@ hr {
     margin: 40px 20px;
   }
   .grid__index-page .section-tdm .section-tdm__container__demonstration:hover {
-    width: 80%;
+    transform: scale(1);
     box-shadow: 0px 0px 25px 8px #340fb8;
     background-color: #1d0c57;
     margin: 40px 20px;
@@ -1235,7 +1234,7 @@ hr {
     width: 80%;
   }
   .grid__gl-page .galeria__div:hover {
-    width: 80%;
+    transform: scale(1);
   }
   /* ARTISTA.HTML PAGE  */
   .grid__ar-page {
