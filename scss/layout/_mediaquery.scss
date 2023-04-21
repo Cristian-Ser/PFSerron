@@ -247,7 +247,8 @@
     .grid__ct-page {
 
         /* SUBTÍTULO */
-        .ct-form h3 {
+        .ct-form p {
+            font-size: 35px;
             padding-bottom: 30px;
         }
 
@@ -412,6 +413,10 @@
         .ct-form {
             padding: 30px;
             gap: 18px;
+
+            p {
+                font-size: 30px;
+            }
 
             /* NOMBRE */
             &__nm {
@@ -646,7 +651,8 @@
         .ct-form {
             gap: 15px;
 
-            h3 {
+            p {
+                font-size: 25px;
                 padding-bottom: 15px;
             }
         }
@@ -838,7 +844,7 @@
     .grid__ct-page {
 
         /* SUBTÍTULO */
-        .ct-form h3 {
+        .ct-form p {
             text-align: center;
             font-size: 20px;
         }
