@@ -469,10 +469,10 @@ hr {
   transform: scale(1.05);
   margin: 0 10px;
 }
-.grid__tdm-page DIVISIÓN .articles-division {
+.grid__tdm-page .articles-division {
   padding: 50px 25%;
 }
-.grid__tdm-page DIVISIÓN .articles-division hr {
+.grid__tdm-page .articles-division hr {
   border: solid 3px #ffffff;
   border-radius: 3px;
 }
