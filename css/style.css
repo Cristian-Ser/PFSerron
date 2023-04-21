@@ -177,7 +177,7 @@ hr {
   width: 95vw;
   height: 38vw;
   margin: 25px auto;
-  background-image: url(../multimedia/web_site_banner.jpg);
+  background-image: url(../multimedia/web_site_banner.webp);
   background-size: 95vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,7 +387,7 @@ hr {
   grid-area: areatdm12;
 }
 .grid__tdm-page .banner-pages {
-  background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+  background-image: url(../multimedia/banner_resto_del_sitio.webp);
   width: 90vw;
   margin: 25px auto;
   background-position: center;
@@ -495,7 +495,7 @@ hr {
   grid-area: areag3;
 }
 .grid__gl-page .banner-pages {
-  background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+  background-image: url(../multimedia/banner_resto_del_sitio.webp);
   width: 90vw;
   margin: 25px auto;
   background-position: center;
@@ -567,7 +567,7 @@ hr {
   grid-area: areaar3;
 }
 .grid__ar-page .banner-pages {
-  background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+  background-image: url(../multimedia/banner_resto_del_sitio.webp);
   width: 90vw;
   margin: 25px auto;
   background-position: center;
@@ -629,7 +629,7 @@ hr {
   grid-area: areact2;
 }
 .grid__ct-page .banner-pages {
-  background-image: url(../multimedia/banner_resto_del_sitio.jpg);
+  background-image: url(../multimedia/banner_resto_del_sitio.webp);
   width: 90vw;
   margin: 25px auto;
   background-position: center;
