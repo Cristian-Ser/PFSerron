@@ -1,5 +1,6 @@
 /* ARTISTA.HTML PAGE  */
 
+// LAYOUT
 .grid__ar-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,7 +21,7 @@
         grid-area: areaar3;
     }
 
-    /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+    /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
     .banner-pages {
         background-image: url(../multimedia/banner_resto_del_sitio.jpg);
         width: 90vw;
@@ -38,7 +39,7 @@
         }
     }
 
-    /* IMAGEN Y DESCRIPCION */
+    /* IMÁGEN Y DESCRIPCIÓN */
     .artista-img,
     .artista-description {
         padding: 50px 0;

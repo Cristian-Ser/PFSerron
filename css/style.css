@@ -10,7 +10,6 @@
 }
 
 /* ESTILOS GENERALES */
-/* BODY */
 body {
   background-color: #080319;
   padding-top: 10vh;
@@ -470,10 +469,10 @@ hr {
   transform: scale(1.05);
   margin: 0 10px;
 }
-.grid__tdm-page .articles-division {
+.grid__tdm-page DIVISIÓN .articles-division {
   padding: 50px 25%;
 }
-.grid__tdm-page .articles-division hr {
+.grid__tdm-page DIVISIÓN .articles-division hr {
   border: solid 3px #ffffff;
   border-radius: 3px;
 }
@@ -484,7 +483,7 @@ hr {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "areag1" "areag2" "areag3";
-  /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+  /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
 }
 .grid__gl-page .areag1 {
   grid-area: areag1;
@@ -555,8 +554,8 @@ hr {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "areaar1 areaar1" "areaar2 areaar3";
-  /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
-  /* IMAGEN Y DESCRIPCION */
+  /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
+  /* IMÁGEN Y DESCRIPCIÓN */
 }
 .grid__ar-page .areaar1 {
   grid-area: areaar1;
@@ -620,7 +619,7 @@ hr {
   grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-template-areas: "areact1" "areact2";
-  /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+  /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
   /* FORMULARIO */
 }
 .grid__ct-page .areact1 {
@@ -852,7 +851,7 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "areaar1 areaar1" "areaar2 areaar2" "areaar3 areaar3";
-    /* IMAGEN Y DESCRIPCION */
+    /* IMÁGEN Y DESCRIPCIÓN */
   }
   .grid__ar-page .areaar1 {
     grid-area: areaar1;
@@ -882,7 +881,6 @@ hr {
   label {
     font-size: 18px;
   }
-  /* PAGES */
   /* INDEX.HTML PAGE */
   .grid__index-page {
     grid-template-areas: "area1 area1" "area2 area2" "area3 area3" "area4 area4" "area5 area5";
@@ -935,7 +933,7 @@ hr {
   }
   /* TIPOS_DE_MANDALA.HTML PAGE */
   .grid__tdm-page {
-    /* IMG Y DESCRIPCION */
+    /* IMG Y DESCRIPCIÓN */
     /* ALGUNOS EJEMPLOS */
   }
   .grid__tdm-page .article-tdm__description img {
@@ -1025,7 +1023,6 @@ hr {
   .navbar .navbar-brand img {
     width: 40px;
   }
-  /* PAGES */
   /* INDEX.HTML PAGE */
   .grid__index-page {
     /* BANNER */
@@ -1150,7 +1147,6 @@ hr {
   }
 }
 @media screen and (max-width: 600px) {
-  /* PAGES */
   /* INDEX.HTML PAGE */
   .grid__index-page {
     /* BANNER */
@@ -1309,7 +1305,6 @@ hr {
   .navbar .navbar-brand img {
     width: 30px;
   }
-  /* PAGES */
   /* INDEX.HTML PAGE */
   .grid__index-page {
     /* BANNER */

@@ -1,5 +1,6 @@
 /* GALERIA.HTML PAGE */
 
+// LAYOUT
 .grid__gl-page {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -21,7 +22,7 @@
         grid-area: areag3;
     }
 
-    /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+    /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
     .banner-pages {
         background-image: url(../multimedia/banner_resto_del_sitio.jpg);
         width: 90vw;
@@ -38,7 +39,7 @@
             text-shadow: 3px 3px 5px $mainColor;
         }
     }
-
+    // COMENTARIO
     .galeria-coment {
         display: flex;
         justify-content: center;
@@ -52,7 +53,7 @@
             line-height: 40px;
         }
     }
-
+    // GALERÍA
     .galeria {
         @include flex(row, space-evenly, center);
         flex-wrap: wrap;

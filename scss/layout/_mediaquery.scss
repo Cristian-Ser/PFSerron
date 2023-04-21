@@ -33,6 +33,7 @@
     }
 
 
+
     /* TIPOS_DE_MANDALA.HTML PAGE */
     .grid__tdm-page {
 
@@ -61,7 +62,6 @@
 
 
     /* GALERIA.HTML PAGE */
-
     .grid__gl-page {
 
         .galeria-coment {
@@ -76,7 +76,7 @@
 
 
     /* ARTISTA.HTML PAGE  */
-
+    // LAYOUT
     .grid__ar-page {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -98,7 +98,7 @@
             grid-area: areaar3;
         }
 
-        /* IMAGEN Y DESCRIPCION */
+        /* IMÁGEN Y DESCRIPCIÓN */
         .artista-img {
             padding: 30px 0;
             height: 100%;
@@ -127,9 +127,7 @@
         font-size: 18px;
     }
 
-
-
-    /* PAGES */
+    
 
     /* INDEX.HTML PAGE */
     .grid__index-page {
@@ -206,7 +204,7 @@
     /* TIPOS_DE_MANDALA.HTML PAGE */
     .grid__tdm-page {
 
-        /* IMG Y DESCRIPCION */
+        /* IMG Y DESCRIPCIÓN */
         .article-tdm__description img {
             width: 60vw;
             box-shadow: 0px 0px 60px 0px $trdColor;
@@ -221,6 +219,7 @@
             padding: 30px 25%;
         }
     }
+
 
 
     /* GALERIA.HTML PAGE */
@@ -329,12 +328,7 @@
 
 
 
-
-
-    /* PAGES */
-
     /* INDEX.HTML PAGE */
-
     .grid__index-page {
 
         /* BANNER */
@@ -467,8 +461,8 @@
     }
 
 
-    /* FOOTER */
 
+    /* FOOTER */
     .footer {
         padding-bottom: 40px;
 
@@ -500,8 +494,6 @@
 
 
 @media screen and (max-width: 600px) {
-
-    /* PAGES */
 
     /* INDEX.HTML PAGE */
     .grid__index-page {
@@ -564,10 +556,10 @@
     }
 
 
+
     /* TIPOS_DE_MANDALA.HTML PAGE */
 
     .grid__tdm-page {
-
         /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
         .banner-pages {
             margin: 20px auto;
@@ -609,7 +601,6 @@
 
 
     /* GALERIA.HTML PAGE */
-
     .grid__gl-page {
 
         .galeria-coment {
@@ -627,7 +618,6 @@
             &:hover {
                 transform: scale(1);
             }
-
         }
     }
 
@@ -643,8 +633,8 @@
     }
 
 
-    /* CONTACTO.HTML PAGE */
 
+    /* CONTACTO.HTML PAGE */
     .grid__ct-page {
 
         /* FORMULARIO */
@@ -724,8 +714,6 @@
     }
 
 
-
-    /* PAGES */
 
     /* INDEX.HTML PAGE */
     .grid__index-page {
@@ -814,6 +802,8 @@
         }
     }
 
+
+
     /* GALERIA.HTML PAGE */
 
     .grid__gl-page {
@@ -840,7 +830,6 @@
 
 
     /* CONTACTO.HTML PAGE */
-
     .grid__ct-page {
 
         /* SUBTÍTULO */
@@ -934,7 +923,6 @@
 
 
     /* FOOTER */
-
     .footer {
         padding-bottom: 35px;
 

@@ -1,5 +1,6 @@
 /* CONTACTO.HTML PAGE */
 
+// LAYOUT
 .grid__ct-page {
     display: grid;
     grid-template-columns: 100%;
@@ -16,7 +17,7 @@
         grid-area: areact2;
     }
 
-    /* BANNER PARA TODAS LAS PAGINAS RESTANTES */
+    /* BANNER PARA TODAS LAS PÁGINAS RESTANTES */
     .banner-pages {
         background-image: url(../multimedia/banner_resto_del_sitio.jpg);
         width: 90vw;
