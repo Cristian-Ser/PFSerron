@@ -24,10 +24,6 @@
             .section-t__all__container {
                 width: 95%;
                 padding: 10px;
-
-                &:hover {
-                    width: 95%;
-                }
             }
         }
     }
@@ -231,12 +227,6 @@
 
         .galeria__div {
             width: 45%;
-            box-shadow: 0px 0px 15px 5px $trdColor;
-
-            &:hover {
-                transform: scale(1.03);
-                box-shadow: 0px 0px 15px 5px $trdColor;
-            }
         }
     }
 
@@ -614,10 +604,6 @@
 
         .galeria__div {
             width: 80%;
-
-            &:hover {
-                transform: scale(1);
-            }
         }
     }
 
@@ -821,7 +807,6 @@
 
             .galeria__div {
                 border: solid 3px $trdColor;
-                box-shadow: 0px 0px 15px 5px $trdColor;
                 margin: 18px 0;
             }
         }

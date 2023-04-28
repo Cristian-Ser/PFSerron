@@ -321,11 +321,6 @@ hr {
   border-radius: 25px;
   padding: 10px;
   gap: 30px;
-  transition: 0.5s;
-}
-.grid__index-page .section-t__all__container:hover {
-  width: 32%;
-  transition: 0.5s;
 }
 .grid__index-page .section-t__all__container__nombre {
   font-family: "Lobster";
@@ -539,10 +534,6 @@ hr {
   border-radius: 10%;
   overflow: hidden;
   transition: 0.5s;
-}
-.grid__gl-page .galeria__div:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 0px 25px 5px #3610c1;
 }
 .grid__gl-page .galeria__div img {
   width: 100%;
@@ -817,9 +808,6 @@ hr {
     width: 95%;
     padding: 10px;
   }
-  .grid__index-page .section-t__all .section-t__all__container:hover {
-    width: 95%;
-  }
   /* TIPOS_DE_MANDALA.HTML PAGE */
   .grid__tdm-page .article-tdm__description {
     flex-direction: column-reverse;
@@ -953,11 +941,6 @@ hr {
   }
   .grid__gl-page .galeria__div {
     width: 45%;
-    box-shadow: 0px 0px 15px 5px #3610c1;
-  }
-  .grid__gl-page .galeria__div:hover {
-    transform: scale(1.03);
-    box-shadow: 0px 0px 15px 5px #3610c1;
   }
   /* CONTACTO.HTML PAGE */
   .grid__ct-page {
@@ -1235,9 +1218,6 @@ hr {
   .grid__gl-page .galeria__div {
     width: 80%;
   }
-  .grid__gl-page .galeria__div:hover {
-    transform: scale(1);
-  }
   /* ARTISTA.HTML PAGE  */
   .grid__ar-page {
     /*DESCRIPCION */
@@ -1382,7 +1362,6 @@ hr {
   }
   .grid__gl-page .galeria .galeria__div {
     border: solid 3px #3610c1;
-    box-shadow: 0px 0px 15px 5px #3610c1;
     margin: 18px 0;
   }
   /* CONTACTO.HTML PAGE */
